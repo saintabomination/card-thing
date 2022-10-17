@@ -46,6 +46,7 @@
     ]
   },
   "devDependencies": {
-    "@fortawesome/fontawesome-common-types": "^6.2.0"
+    "@fortawesome/fontawesome-common-types": "^6.2.0",
+    "sass": "^1.55.0"
   }
 }
