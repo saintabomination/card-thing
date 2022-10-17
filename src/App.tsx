@@ -1,3 +1,5 @@
+import Icon from './components/Icon/Icon.component';
+
 const App = (): JSX.Element =>
   (
     <>
@@ -16,9 +18,18 @@ const App = (): JSX.Element =>
       </ul>
       <h2>Contacts</h2>
       <ul>
-        <li>Instagram</li>
-        <li>LinkedIn</li>
-        <li>Twitter</li>
+        <li>
+          <Icon name="instagram" type="fab" />
+          <span>Instagram</span>
+        </li>
+        <li>
+          <Icon name="linkedin" type="fab" />
+          <span>LinkedIn</span>
+        </li>
+        <li>
+          <Icon name="twitter" type="fab" />
+          <span>Twitter</span>
+        </li>
       </ul>
     </>
   );
